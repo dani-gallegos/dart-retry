@@ -1,5 +1,7 @@
 name: retry
 version: 1.0.0
+author: Tim Kluge <timklge@gmail.com>
+homepage: https://github.com/gwTumm/dart-retry
 description: Execute a function repeatedly until no exception is thrown
 dev_dependencies:
   test: any
