@@ -1,0 +1,5 @@
+name: retry
+version: 1.0.0
+description: Execute a function repeatedly until no exception is thrown
+dev_dependencies:
+  test: any
