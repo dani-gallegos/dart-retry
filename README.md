@@ -3,6 +3,9 @@ Execute a function repeatedly until no exception is thrown
 
 ## Usage
 
+    import "package:retry/retry.dart";
+    import "dart:async";
+
     Future connectFunction(){ ... }
 
     Future main() async {
