@@ -5,7 +5,7 @@ import "dart:async";
 /**
  * Calls [f] repeatedly until it doesn't throw an exception or [tryLimit] is
  * reached (in which case the future completes with the last thrown exception).
- * f is called every [interval] seeconds.
+ * f is called every [interval] seconds.
  */
 Future<T> retry<T>(Future<T> f(),
     {int tryLimit: 6, Duration interval}) async {
